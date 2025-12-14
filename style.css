@@ -1,0 +1,42 @@
+*{
+    font-family: arial;
+}
+body{
+    background-color :bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    padding : 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+}
+.enter{
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    
+}
+.core-container{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    align-items: center;
+    height: 200px;
+    border-radius: 30px;
+}
+.core{
+    width : 48%;
+    align-content: center;
+    text-align: center;
+}
+.msg-box{
+    font-size: 1.5rem;
+}
