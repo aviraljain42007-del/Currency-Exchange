@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Exchange</title>
-    <link rel = "stylesheet" href = "style.css">
-</head>
-<body>
-  <div class="container">
-    <input type = "text" class ="enter" placeholder="Enter the amount you want to convert">
-    <div class="core-container">
-    <div class="core">
-        <p>From</p>
-        <div class="from pic">
-            <img src="https://flagsapi.com/BE/flat/64.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        class="enter"
+        placeholder="Enter the amount you want to convert"
+      />
+      <div class="core-container">
+        <div class="core-1">
+          <p>From</p>
+          <div class="pic">
+            <img src="https://flagsapi.com/US/flat/64.png" />
+          </div>
+          <select name="from"></select>
         </div>
-        <select name = "from"></select>
+        <div class="core-2">
+          <p>To</p>
+          <div class="pic">
+            <img src="https://flagsapi.com/IN/flat/64.png" />
+          </div>
+          <select name="to"></select>
+        </div>
+      </div>
+      <p class="msg-box">Conversion will be shown here</p>
+      <div class="calculate">Convert</div>
     </div>
-     <div class="core">
-        <p>To</p>
-        <div class="to pic">
-            <img src="https://flagsapi.com/IN/flat/64.png">
-        </div>
-        <select name = "to"></select>
-    </div></div>
-    <p class ="msg-box">1 Usd = how any inr</p>
-
-  </div>  
-</body>
-<script src="list.js"></script>
-<script src="app.js"></script>
+    <script src="list.js"></script>
+  <script src="app.js"></script>
+  </body>
 </html>
