@@ -31,7 +31,7 @@ let updateflag = (element) => {
 };
 
 btn.addEventListener("click", async () => {
-    let entervalue = value.value;
+  let entervalue = value.value;
   if (entervalue < 1 || entervalue === "") {
     entervalue = 1;
   }
